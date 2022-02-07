@@ -1,6 +1,6 @@
 import set from 'set-value';
 import strind from 'strind';
-import { Result, Results } from './FuzzyHighlighter';
+import { Result, Results } from './useFuzzySearch';
 
 function formatResults<T>(results: Results<T>): FinalResults<T> {
   const finalResults: FinalResults<T> = [];
